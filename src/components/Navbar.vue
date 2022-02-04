@@ -1,19 +1,19 @@
 <template>
   <b-navbar toggleable="lg" type="dark">
-    <!-- <router-link to="/" class="navbar-brand">
+    <router-link to="/" class="navbar-brand">
       <img v-bind:src="require('../assets/logoletraslado.png')" alt="logo" />
-    </router-link> -->
+    </router-link>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav class=" justify-content-end">
       <b-navbar-nav class="navbar-nav ">
         <b-nav-item>
-          <router-link to="/home" class="nav-link">INICIO</router-link>
+          <router-link to="/" class="nav-link">INICIO</router-link>
         </b-nav-item>
         <b-nav-item>
-          <router-link to="/Conocenos" class="nav-link">CONOCENOS</router-link>
+          <router-link to="/" class="nav-link">CONOCENOS</router-link>
         </b-nav-item>
         <b-nav-item>
-          <router-link to="/Contactenos" class="nav-link"
+          <router-link to="/" class="nav-link"
             >CONTACTENOS</router-link>
         </b-nav-item>
       </b-navbar-nav>
@@ -34,7 +34,11 @@ header {
   height: 70px;
   position: fixed;
   /*COLOR DEL NAVBAR*/
-  background-color: #f2f2f2;
+  background-color: #f3f3f3;
+  
+}
+.navbar{
+  border-bottom: solid 2px #e0dfdf;
 }
 .navbar-toggler {
   margin: 20px 20px;
@@ -51,7 +55,7 @@ header {
   border-color: #6ab23c;
 }
 .navbar-brand img {
-  width: 150px;
+  width: 180px;
   height: auto;
   padding-left: 15px;
 }

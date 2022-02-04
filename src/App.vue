@@ -21,6 +21,7 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway:ital,wght@1,600&display=swap');
 .navbar-exact-active {
   color: rgb(0, 0, 0) !important;
 }
