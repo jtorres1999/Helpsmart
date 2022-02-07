@@ -5,7 +5,7 @@
       class="float"
       target="_blank"
     >
-      <i class="fa fa-whatsapp my-float"></i>
+      <b-icon icon="telephone" class="my-float"></b-icon>
     </a>
   </div>
 </template>

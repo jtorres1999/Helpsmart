@@ -1,5 +1,5 @@
 <template>
-    <b-row class="mt-4">
+    <b-row class="mt-5 mb-5">
       <b-col cols="12" md="12" class="mb-2 ">
         <b-carousel
           :interval="6000"
@@ -13,7 +13,7 @@
           <!-- Slides with image only -->
           <b-carousel-slide>
             <template #img>
-              <iframe width="100%" height="500" src="https://www.youtube.com/embed/bcHjOZQpFY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="100%" height="500" src="https://www.youtube.com/embed/D5bS0_i1C18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </template>
           </b-carousel-slide>
           <b-carousel-slide>
@@ -44,10 +44,7 @@ export default {
 </script>
 
 <style scoped>
-.inicio {
-  width: 40%;
-  height: 65%;
-}
+
 .card{
   width: 100%;
 }

@@ -1,16 +1,16 @@
 <template>
   <b-container class="bv-example-row">
     <b-row>
-      <b-col cols="12" md="7" class="mb-2 ">
+      <b-col cols="12" md="7" class="mb-2 mt-5">
         <div class="text-center">
         <img v-bind:src="require('../assets/logogrande.png')" alt="logo" class="inicio"/></div>
       </b-col>
       <b-col cols="11" md="5" class="card gps">
-        <div class="title text-center mt-2">
+        <div class="title text-center mt-4">
           <img v-bind:src="require('../assets/letrasSIM-HI.png')" alt="logo">
         </div>
-        <p class="pretitle mt-1">Software para Gestion de Ma ntenimiento Hospitalario e Industrial</p>
-        <div class="sesion mt-1">
+        <p class="pretitle mt-2">Software para Gestion de Mantenimiento <br> Hospitalario e  Industrial</p>
+        <div class="sesion mt-3">
         <span >Inicio de Sesión</span></div>
         <form role="form" action="https://hmsline.helpmedica.com/login" method="POST" id="login-form" autocomplete="off" novalidate="novalidate">
           <input type="hidden" value="qsRwazdUnasqWDIG6PZJfuLbpr2y46hMl2qELjOs" name="_token">
@@ -18,15 +18,15 @@
               <!-- <i class="fa fa-user"></i> -->
               <input type="email" name="username" id="username " class="form-control" placeholder="  Usuario" autofocus="autofocus">
           </div>
-          <div class="form-group password-field input-icon mt-2">
+          <div class="form-group password-field input-icon mt-3">
             <!-- <i class="fa fa-lock"></i> -->
             <input type="password" name="password" id="password" class="form-control" placeholder="  Contraseña">  
           </div>
-          <div class="forgot mt-2 text-end">
+          <div class="forgot mt-3 text-end">
             <a v-b-modal.modal-1 >¿Olvidastes tu Contraseña?</a>
           </div><br>
-          <div class="form-group text-center mt-2">
-              <b-button class="btn btn-success">Ingresar</b-button>
+          <div class="form-group text-center mt-3">
+              <b-button class="btn ">Ingresar</b-button>
           </div> 
         </form>
       </b-col>
@@ -55,8 +55,8 @@ export default {
 <style scoped>
 /**imagen */
 .inicio{
-  width: 75%;
-  height: 50%;
+  width: 65%;
+  height: 40%;
   margin-left: -80px;
   margin-top: 10px;
 }
@@ -80,31 +80,38 @@ export default {
   font-weight: bolder;
   text-align: center;
 }
+.form-group{
+  text-align: -webkit-center;
+}
 .form-control{
   border-radius: 10px;
-  margin-top: 13px;
+  margin-top: 15px;
   font-family: 'Raleway', sans-serif;
+  width: 80%;
+  
 }
 .btn{
   width: 50%;
-  color: #000;
+  color: rgb(255, 255, 255);
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
   font-size:15px;
+  background-color: #28c76f;
 }
 .btn:hover{
-  background-color: rgb(120, 173, 40) ;
+  background-color: #23d160;
 }
 .forgot{
   border-style: none;
 
 }
 .card{
-  margin-top: 8px;
+  margin-top: 45px;
   border:solid 5px #ccc;
   border-radius:15px;
-  box-shadow: 4px 4px 3px 5px #e0e0e0;
+  box-shadow: 0px 3px 3px 5px #afebc4;
   text-align: center;
+  width: 35%;
 }
 .index {
   position: relative;
@@ -135,6 +142,9 @@ export default {
     margin-top: 0px;
     width: 100%;
   }
+  .card{
+    width: 95%;
+  }
 }
 @media only screen and (max-width: 767px) { 
   .btn{
@@ -146,6 +156,9 @@ export default {
     margin-top: 0px;
     width: 86%;
     height: 86%;
+  }
+  .card{
+    width: 95%;
   }
 }
 @media only screen and (max-width: 340px) {
@@ -162,6 +175,9 @@ export default {
     margin-top: 0px;
     width: 90%;
     height: 80%;
+  }
+  .card{
+    width: 95%;
   }
 }
 /* ESTO ES PARA EL LOGIN
