@@ -25,4 +25,7 @@ export default {
 .navbar-exact-active {
   color: rgb(0, 0, 0) !important;
 }
+.navbar a.nav-link{
+  color: rgb(0, 0, 0) !important;
+}
 </style>

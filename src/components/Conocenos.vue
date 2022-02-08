@@ -1,5 +1,5 @@
 <template>
-    <b-row class="mt-5 mb-5">
+    <b-row class="mt-5 mb-5" id="#conocenos">
       <b-col cols="12" md="12" class="mb-2 ">
         <b-carousel
           :interval="6000"

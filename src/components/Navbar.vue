@@ -10,7 +10,7 @@
           <router-link to="/" class="nav-link">INICIO</router-link>
         </b-nav-item>
         <b-nav-item>
-          <router-link to="/" class="nav-link">CONOCENOS</router-link>
+          <a href="#conocenos" class="nav-link">CONOCENOS</a> 
         </b-nav-item>
         <b-nav-item>
           <router-link to="/" class="nav-link"

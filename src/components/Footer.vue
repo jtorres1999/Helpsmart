@@ -82,8 +82,9 @@ export default {};
 .inicio{
   width: 200%;
   height: auto;
-  text-align: initial;
+  text-align: center;
   margin-top: 100%;
+  
 }
 .subtitle{
   color: #28c76f;
@@ -91,9 +92,11 @@ export default {};
 
 .logo{
   width: 80%;
+  margin-left: 15px;
 }
 .list-unstyled{
   margin-top: 18px;
+  margin-left: 15px;
 }
 .list-inline-item{
   margin-left: 21px;
