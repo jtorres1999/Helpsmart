@@ -74,7 +74,6 @@ export default {};
   color: #23d160;
   font-weight: bold;
   font-size: 30px;
-
 }
 .flex{
   display: flex;
@@ -84,12 +83,10 @@ export default {};
   height: auto;
   text-align: center;
   margin-top: 100%;
-  
 }
 .subtitle{
   color: #28c76f;
 }
-
 .logo{
   width: 80%;
   margin-left: 15px;
@@ -131,6 +128,12 @@ export default {};
 .descripc{
   text-align: center;
 }
+.list-unstyled{
+  text-align: center;
+}
+.inicio{
+  width:  90%;
+}
 }
 @media only screen and (max-width: 767px) { 
  .inicio{
@@ -154,6 +157,9 @@ export default {};
 .list-inline-item{
   margin-bottom: 10px;
 }
+.hr{
+  display: none;
+}
 }
 @media only screen and (max-width: 340px) {
  .inicio{
@@ -173,6 +179,9 @@ export default {};
 }
 .list-inline-item{
   margin-bottom: 10px;
+}
+.hr{
+  display: none;
 }
 }
 

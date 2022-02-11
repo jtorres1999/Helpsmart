@@ -1,9 +1,8 @@
 <template>
-  <b-container class="bv-example-row">
     <b-row>
-      <b-col cols="12" md="7" class="mb-2 mt-5">
+      <b-col cols="12" md="7" class=" mt-5">
         <div class="text-center">
-        <img v-bind:src="require('../assets/logogrande.png')" alt="logo" class="inicio"/></div>
+        <img v-bind:src="require('../assets/simhi.gif')" alt="logo" class="inicio"/></div>
       </b-col>
       <b-col cols="11" md="5" class="card gps">
         <div class="title text-center mt-4">
@@ -30,17 +29,13 @@
           </div> 
         </form>
       </b-col>
-    </b-row>
-    <br>
-    <module />
-    <conocenos />
-    
+      <module />
+    <conocenos />  
     <ModalPassword />
-  </b-container>
+    </b-row>
 </template>
 <script>
 import Conocenos from '../components/Conocenos.vue';
-
 import ModalPassword from '../components/ModalPassword.vue'
 import Module from '../components/Module.vue';
 
@@ -55,12 +50,11 @@ export default {
 <style scoped>
 /**imagen */
 .inicio{
-  width: 65%;
-  height: 40%;
+  width: 60%;
+  height:auto;
   margin-left: -80px;
   margin-top: 10px;
 }
-
 .title IMG{
   width: 200px;
 }
@@ -68,7 +62,6 @@ export default {
   font-family: "Montserrat", sans-serif;
   font-size:0.8rem;
   color: black;
-  
 }
 .gps{
   border: 1px black !important;
@@ -88,7 +81,6 @@ export default {
   margin-top: 15px;
   font-family: 'Raleway', sans-serif;
   width: 80%;
-  
 }
 .btn{
   width: 50%;
@@ -103,7 +95,6 @@ export default {
 }
 .forgot{
   border-style: none;
-
 }
 .card{
   margin-top: 45px;
@@ -111,7 +102,8 @@ export default {
   border-radius:15px;
   box-shadow: 0px 3px 3px 5px #afebc4;
   text-align: center;
-  width: 35%;
+  width: 30%;
+  height: auto;
 }
 .index {
   position: relative;
@@ -143,7 +135,8 @@ export default {
     width: 100%;
   }
   .card{
-    width: 95%;
+    width: 90%;
+    margin-left: 19px;
   }
 }
 @media only screen and (max-width: 767px) { 
@@ -158,7 +151,8 @@ export default {
     height: 86%;
   }
   .card{
-    width: 95%;
+    width: 89%;
+    margin-left: 20px;
   }
 }
 @media only screen and (max-width: 340px) {
@@ -177,7 +171,8 @@ export default {
     height: 80%;
   }
   .card{
-    width: 95%;
+    width: 85%;
+    margin-left: 20px;
   }
 }
 /* ESTO ES PARA EL LOGIN
