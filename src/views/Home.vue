@@ -2,7 +2,7 @@
     <b-row>
       <b-col cols="12" md="7" class=" mt-5">
         <div class="text-center">
-        <img v-bind:src="require('../assets/simhi.gif')" alt="logo" class="inicio"/></div>
+        <img v-bind:src="require('../assets/simhi2.gif')" alt="logo" class="inicio"/></div>
       </b-col>
       <b-col cols="11" md="5" class="card gps">
         <div class="title text-center mt-4">
