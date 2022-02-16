@@ -10,10 +10,11 @@
           <router-link to="/" class="nav-link">INICIO</router-link>
         </b-nav-item>
         <b-nav-item>
-          <a href="#conocenos" class="nav-link">CONOCENOS</a> 
+          <router-link to="/module" class="nav-link">
+          CONOCENOS</router-link> 
         </b-nav-item>
         <b-nav-item>
-          <router-link to="/" class="nav-link"
+          <router-link to="/Conocenos" class="nav-link"
             >CONTACTENOS</router-link>
         </b-nav-item>
       </b-navbar-nav>

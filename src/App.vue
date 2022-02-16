@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div>
     <Navbar />
     <Whatsapp />
     <router-view />

@@ -24,7 +24,7 @@
           <div class="forgot mt-3 text-end">
             <a v-b-modal.modal-1 >¿Olvidastes tu Contraseña?</a>
           </div><br>
-          <div class="form-group text-center mt-3">
+          <div class="form-group text-center mt-1">
               <b-button class="btn ">Ingresar</b-button>
           </div> 
         </form>
@@ -50,7 +50,7 @@ export default {
 <style scoped>
 /**imagen */
 .inicio{
-  width: 60%;
+  width: 66%;
   height:auto;
   margin-left: -80px;
   margin-top: 10px;
