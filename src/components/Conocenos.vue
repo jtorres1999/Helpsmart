@@ -13,12 +13,12 @@
           <!-- Slides with image only -->
           <b-carousel-slide>
             <template #img>
-              <iframe width="95%" height="500" src="https://www.youtube.com/embed/D5bS0_i1C18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <iframe width="95%" height="490" src="https://www.youtube.com/embed/WA9mjP6PG7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </template>
           </b-carousel-slide>
           <b-carousel-slide>
             <template #img>
-               <iframe width="95%" height="500" src="https://www.youtube.com/embed/ZAGlxioad5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe width="95%" height="490" src="https://www.youtube.com/embed/sCEezfwXnMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </template>
           </b-carousel-slide>
         </b-carousel>

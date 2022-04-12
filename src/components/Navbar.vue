@@ -1,7 +1,7 @@
 <template>
   <b-navbar toggleable="lg" type="dark">
-    <router-link to="/" class="navbar-brand">
-      <img v-bind:src="require('../assets/logoletraslado.png')" alt="logo" />
+    <router-link to="/" class="navbar-brand" >
+      <img v-bind:src="require('../assets/JUNIORLOGO.jpg')" alt="logo" style="width: 140px; height:90px;"/>
     </router-link>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav class=" justify-content-end">
@@ -39,7 +39,7 @@ header {
   
 }
 .navbar{
-  border-bottom: solid 2px #e0dfdf;
+  border-bottom: solid 2px #f05353;
 }
 .navbar-toggler {
   margin: 20px 20px;

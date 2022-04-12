@@ -8,7 +8,7 @@
         <div class="title text-center mt-4">
           <img v-bind:src="require('../assets/letrasSIM-HI.png')" alt="logo">
         </div>
-        <p class="pretitle mt-2">Software para Gestion de Mantenimiento <br> Hospitalario e  Industrial</p>
+        <p class="pretitle mt-2">Hincha se parte de nosotros</p>
         <div class="sesion mt-3">
         <span >Inicio de Sesión</span></div>
         <form role="form" action="https://hmsline.helpmedica.com/login" method="POST" id="login-form" autocomplete="off" novalidate="novalidate">
@@ -50,7 +50,7 @@ export default {
 <style scoped>
 /**imagen */
 .inicio{
-  width: 66%;
+  width: 50%;
   height:auto;
   margin-left: -80px;
   margin-top: 10px;
@@ -88,10 +88,10 @@ export default {
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
   font-size:15px;
-  background-color: #28c76f;
+  background-color: #d62613;
 }
 .btn:hover{
-  background-color: #23d160;
+  background-color: #e74d39;
 }
 .forgot{
   border-style: none;
@@ -100,7 +100,7 @@ export default {
   margin-top: 45px;
   border:solid 5px #ccc;
   border-radius:15px;
-  box-shadow: 0px 3px 3px 5px #afebc4;
+  box-shadow: 0px 3px 3px 5px #f01e1e;
   text-align: center;
   width: 30%;
   height: auto;

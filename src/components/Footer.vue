@@ -19,15 +19,15 @@
           <div class="flex">
             <b-col md="3" >
               <h6 class="text-uppercase mb-4 mt-3 font-weight-bold subtitle">Direccion</h6>
-              <p class="descripc">Carrera 28-No. 30A, Torre 6 - 301 Alcibia. Cartagena - Colombia</p>
+              <p class="descripc">Cartagena - Colombia</p>
             </b-col>
             <b-col md="2" >
               <h6 class="text-uppercase mb-4 mt-3 font-weight-bold subtitle">Telefono</h6>
-              <p class="descrip">674-7077 <br> 315-7791432</p>
+              <p class="descrip">6416311 <br> 312-5678945</p>
             </b-col>
             <b-col md="3" >
               <h6 class="text-uppercase mb-4 mt-3 font-weight-bold subtitle">Correo</h6>
-              <p class="descrip">ventas@helpmedica.com</p>
+              <p class="descrip">jesus@gmail.com</p>
             </b-col>
             <b-col md="3" >
               <h6 class="text-uppercase mb-4 mt-3 font-weight-bold subtitle">Horario</h6>
@@ -40,7 +40,7 @@
         <hr class="clearfix w-100 d-md-none" />
         <b-col md="1">
           <!-- <h5 class="text-uppercase mb-4 mt-3 font-weight-bold subtitle">ENLACES</h5> -->
-          <img v-bind:src="require('../assets/ByHelpmedica.png')" alt="logo" class="inicio"/>
+          <img v-bind:src="require('../assets/JUNIORLOGO.png')" alt="logo" class="inicio"/>
         </b-col>
       </b-row>
     </b-container>
@@ -49,7 +49,7 @@
     
     <div class="footer-copyright text-center py-3">
       <b-container fluid>
-        &copy; 2022 Copyright: <a href="https://www.helpmedica.com"> Helpmedica </a>
+        &copy; 2022 Copyright: <a href="https://github.com/jtorres1999"> JESUS TORRES </a>
       </b-container>
     </div>
   </footer>
